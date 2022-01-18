@@ -33,16 +33,16 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement -->
- <!--distributionManagement>
+ <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/repository/maven-releases/</url>
+            <url>http://localhost:8081/repository/maven_release_pipeline/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/maven-snapshots/</url>
+            <url>http://localhost:8081/repository/maven_snapshot_pipeline/</url>
         </snapshotRepository>
     </distributionManagement-->
          
